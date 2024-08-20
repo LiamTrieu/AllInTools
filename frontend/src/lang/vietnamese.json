@@ -1,0 +1,9 @@
+{
+    "app-name": "All In Tools",
+    "footer-title": "All in tools ©{{date}} Tạo bởi LiamTrieu",
+    "router": {
+        "dasboard": "Tổng quan",
+        "text-tools": "Công cụ văn bản",
+        "compare": "So sánh"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "app-name": "All In Tools",
+    "footer-title": "All in tools ©{{date}} Created by LiamTrieu",
+    "router": {
+        "dasboard": "Dasboard",
+        "text-tools": "Text Tools",
+        "compare": "Compare"
+    }
+}

@@ -1,0 +1,97 @@
+* {
+    font-size: 17px;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.ant-menu-submenu-title {
+    padding-left: 16px !important;
+}
+
+.ant-menu-item {
+    padding-left: 16px !important;
+}
+
+.ant-menu-submenu .ant-menu-item {
+    padding-left: 30px !important;
+}
+
+.ant-layout-sider-collapsed .ant-menu-submenu-title {
+    padding-left: 26px !important;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.ant-layout-sider-collapsed .ant-menu-item {
+    padding-left: 26px !important;
+}
+
+.ismobile-d-inline-block {
+    display: none !important;
+}
+
+.ant-layout-sider .ant-layout-sider-children {
+    background-color: white !important;
+}
+
+.collapsed .ant-layout-sider-children {
+    width: 250px !important;
+}
+
+@media (max-width: 768px) {
+    .ant-layout-sider .app-name {
+        width: auto !important;
+    }
+
+    .ant-layout-sider .ant-layout-sider-children {
+        width: 250px !important;
+    }
+
+    .ant-layout-sider {
+        position: absolute !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        border-inline-end: none !important;
+    }
+
+    .ant-layout-sider-collapsed {
+        min-width: 0 !important;
+        width: 0 !important;
+    }
+
+    .ant-layout {
+        margin-left: 0 !important;
+    }
+
+    .ant-layout-header {
+        width: 100vw !important;
+    }
+
+    .ismobile-d-inline-block {
+        display: inline-block !important;
+    }
+}
+
+.float-right {
+    float: right !important;
+}
